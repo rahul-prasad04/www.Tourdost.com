@@ -1,0 +1,161 @@
+/* Basic styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+/* Background video styling */
+#background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -1;
+}
+header {
+    background-color: #2a9d8f;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    text-align: center;
+    padding: 14px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Main content styling */
+.content {
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+}
+
+.destination {
+    display: inline-block;
+    margin: 20px;
+    background-color: nocolour;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.destination img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.destination button {
+    width: 50%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.destination button:hover {
+    background-color: #45a049;
+}
+
+/* Footer styling */
+footer {
+    background-color:rgba(0, 0, 0, 0.8);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer .logo {
+    width: 100px;
+}
+
+/* Section styling */
+.section {
+    padding: 60px 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#about, #vision, #contact, #map {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+}
+
+#map-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    text-align: center;
+}
+
+iframe {
+    border: 0;
+    width: 80%;
+    height: 450px;
+}
+
+/* Three-column layout for about, contact, and vision sections */
+.three-column {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: left;
+    margin: 40px 0;
+    padding: 20px;
+}
+
+.column {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background-color: black(0, 0, 0, 8);
+    border-radius: 8px;
+}
+
+.column h2 {
+    text-align: center;
+}
+
+.column p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+

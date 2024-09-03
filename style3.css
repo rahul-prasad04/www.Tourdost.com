@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #e91e63;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.place {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    max-width: 300px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.place img {
+    width: 100%;
+    height: auto;
+}
+
+.place-info {
+    padding: 15px;
+}
+
+.place-info h2 {
+    margin: 0 0 10px;
+    font-size: 1.5em;
+    color: #e91e63;
+}
+
+.place-info p {
+    color: #333;
+    margin: 0 0 15px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.button {
+    background-color: #e91e63;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #d81b60;
+}
+
+.button.car {
+    background-color: #3f51b5;
+}
+
+.button.car:hover {
+    background-color: #303f9f;
+}
+footer {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
