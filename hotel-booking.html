@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Hotel Booking</h1>
+    </header>
+
+    <p>Here you can book hotels in <span id="place"></span>.</p>
+
+    <footer>
+        <p>&copy; 2024 Jammu and Kashmir Tourism. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Extract the place from the URL query string
+        const urlParams = new URLSearchParams(window.location.search);
+        const place = urlParams.get('place');
+        document.getElementById('place').textContent = place;
+    </script>
+</body>
+</html>

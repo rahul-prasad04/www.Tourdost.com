@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traveler Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Background video -->
+    <video autoplay muted loop id="background-video">
+        <source src="myvideo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- Navbar -->
+    <header>
+        <h1>Explore Beautiful Places in India</h1>
+        <nav>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+            <a href="#vision">Our Vision</a>
+        </nav>
+    </header>
+
+    <!-- Main content -->
+    <div class="content">
+       
+        <div class="destination">
+            <img src="kasmir.jpeg" sizes="284,177" alt="Jammu & Kashmir">
+            <button onclick="location.href='jammu_kashmir.html'">Jammu & Kashmir</button>
+        </div>
+        <div class="destination">
+            <img src="dar.jpeg" alt="Darjeeling">
+            <button onclick="location.href='darjeeling.html'">Darjeeling</button>
+        </div>
+        <div class="destination">
+            <img src="goa.jpeg" alt="Goa">
+            <button onclick="location.href='goa.html'">Goa</button>
+        </div>
+        <br>
+        <div class="destination">
+            <img src="vishakapattanam.jpeg" alt="Vishakapatnam">
+            <button onclick="location.href='vizag.html'">Vishakapatnam</button>
+        </div>
+        <div class="destination">
+            <img src="rajasthan.jpeg" alt="Vishakapatnam"> 
+            <button onclick="location.href='rajasthan.html'">Rajasthan</button>
+        </div>
+        <div class="destination">
+            <img src="haridhar.jpeg" alt="Vishakapatnam">
+            <button onclick="location.href='Haridwar.html'">Haridwar</button>
+        </div>
+    </div>
+    <br>
+
+    <!-- Three-column layout for About Us, Our Vision, and Contact Us -->
+    <div class="three-column">
+        <!-- About Us Column -->
+        <div id="about" class="column">
+            <h2>About Us</h2>
+            <p>We are a passionate travel company dedicated to helping travelers discover the world's most beautiful destinations. With a focus on curated experiences and personalized service, we aim to make every trip unforgettable.</p>
+        </div>
+
+        <!-- Our Vision Column -->
+        <div id="vision" class="column">
+            <h2>Our Vision</h2>
+            <p>Our vision is to inspire and enable people to explore new places and cultures, fostering a deeper understanding and appreciation of our world. We strive to be the leading platform for travel experiences that connect, educate, and enrich lives.</p>
+        </div>
+
+        <!-- Contact Us Column -->
+        <div id="contact" class="column">
+            <h2>Contact Us</h2>
+            <p>Email:tourdostservice@gmail.com</p>
+            <p>Phone: </p>
+            <p>Address: Barasat,Kolkata,West Bengal 700125</p>
+        </div>
+    </div>
+
+    <!-- Barasat, Kolkata Map Section -->
+    <div id="map" class="section">
+        <h2><pre>                                              Our Location:
+                                 Barasat, Kolkata,West Bengal 700125</pre></h2>
+        <div id="map-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.0748623369283!2d88.48222561518253!3d22.72232148510242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a0276e31d740277%3A0x96e8c231c6ea86ec!2sBarasat%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1693483922945!5m2!1sen!2sin" 
+                width="600" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </div>
+    </div>
+
+    <!-- Footer with logo -->
+    <footer>
+        <img src="logo.jpg" alt="Logo" class="logo">
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
